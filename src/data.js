@@ -39,10 +39,3 @@ export const sortZa = () => {
     return (nombre.title< nombre1.title) ? 1:-1
   });
 };
-
-/*export const filterSort= (nombre) => {
-  let sortArray=[sortFilms,sortDescendent, oldYears, recentYears];
-  return sortArray.filter((movie)=>{
-    return movie===nombre
-  });
-};*/
