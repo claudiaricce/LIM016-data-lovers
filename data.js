@@ -40,9 +40,3 @@ export const sortZa = () => {
   });
 };
 
-/*export const filterSort= (nombre) => {
-  let sortArray=[sortFilms,sortDescendent, oldYears, recentYears];
-  return sortArray.filter((movie)=>{
-    return movie===nombre
-  });
-};*/

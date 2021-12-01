@@ -171,7 +171,7 @@ header nav a{
     padding: 0px;
     margin: 2rem;
   }
-  img:hover{
+  .styleposter:hover{
     filter: opacity(.5);
   }
   .styleCharacter{
@@ -189,7 +189,7 @@ header nav a{
     margin: 1rem;
     background-color:#f5f7f9;
     border-radius: 2rem;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .styleLocation{
@@ -207,7 +207,7 @@ header nav a{
   margin: 1rem;
   background-color:#f5f7f9;
   border-radius: 2rem;
-  font-size:0.7rem;
+  font-size:0.8rem;
 }
 
 .stylevehicles{
@@ -225,7 +225,7 @@ header nav a{
   margin: 1rem;
   background-color:#f5f7f9;
   border-radius: 2rem;
-  font-size:0.7rem;
+  font-size:0.8rem;
   width: 15rem;
 }
 
