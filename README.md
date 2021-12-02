@@ -89,7 +89,7 @@ Aqui mostramos nuestros primeros sketchs en papel de nuestras vistas y como orde
 
 Desarrollamos un prototipo de alta fidelidad en Figma de acuerdo a como queriamos representar 
 nuestra página con las animaciones y vistas.
-<img>
+<img src="https://github.com/claudiaricce/LIM016-data-lovers/blob/main/prototipo.jpg?raw=true"/>
 
 #### Testeos de usabilidad
 
