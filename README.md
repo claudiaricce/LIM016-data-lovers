@@ -23,72 +23,75 @@ necesidades.
 
 ## 2. Historias de Usuario
 
-  1. como: usuaria
-   quiero: saber cuantas animaciones y cuales son 
-   para: poder diferenciarlas y obetener la informacion de la que estoy buscando
+  1. como: usuaria  
+     quiero: saber cuantas animaciones y cuales son  
+     para: poder diferenciarlas y obetener la informacion de la que estoy buscando  
+     
+     definición de terminado:
+     terminar de realizar un prototipo de baja fidelidad de la primera vista,
+     ordenar como queremos que se muestren las animaciones
+     comenzar la maquetacion en html y CSS.
 
-  definición de terminado:
-  terminar de realizar un prototipo de baja fidelidad de la primera vista,
-  ordenar como queremos que se muestren las animaciones
-  comenzar la maquetacion en html y CSS.
+  2. como: usuaria  
+     quiero: poder filtrar las animaciones de acuerdo a directores y productores  
+     para: conocer cuantas y cuales animaciones hicieron  
+     
+     definición de terminado:  
+     colocar los dropdowns en la primera vista, realizar las funciones de filtrado  
+     y poder llamar la animaciones y mostrarlas en el DOM.
 
-  2. como: usuaria
-  quiero: poder filtrar las animaciones de acuerdo a directores y productores
-  para: conocer cuantas y cuales animaciones hicieron
+ 3. como:usuaria  
+    quiero: ordenar las animaciones por año de publicacion y por nombre de la A-Z o viceversa  
+    para: poder encontrar las animaciones más rápido y obtener su información  
+    
+    definición de terminado:  
+    colocar el dropdown de ordenamiento, realizar las funciones de ordenar tanto por año y por titulo,  
+    llamar y mostrar en el DOM.
 
-  definición de terminado:
-  colocar los dropdowns en la primera vista, realizar las funciones de filtrado 
-  y poder llamar la animaciones y mostrarlas en el DOM.
+ 4. como:usuaria  
+    quiero: poder actualizar y poder reiniciar mis filtros y ordenamientos  
+    para: poder encontrar las animaciones más rápido  
+    
+    definición de terminado:  
+    colocar un botón de refresh, lograr que refresque y pueda volver a iniciar la búsqueda, limpie las películas  
+    mostradas y las regrese como al inicio.
 
- 3. como:usuaria
-  quiero: ordenar las animaciones por año de publicacion y por nombre de la A-Z o viceversa
-  para: poder encontrar las animaciones más rápido y obtener su información
+ 5. como: usuaria  
+    quiero: poder ver de cada animación como: descripción, fecha de lanzamiento, director, productor y personajes.  
+    para: poder encontrar la información detallada de cada animación.  
+    
+    definición de terminado:  
+    desarrollar el prototipo de la 2da vista, poder mostrar y ocultar la 2da vista, en la segunda vista poder traer   
+    DOM los detalles de la pelicula con su imagen 
 
-  definición de terminado:
-  colocar el dropdown de ordenamiento, realizar las funciones de ordenar tanto por año y por titulo,
-  llamar y mostrar en el DOM.
+6. como: usuaria   
+   quiero: poder ver cada personaje de cada animación, saber cuantos y cuales son, y sus datos: nombre, edad, género, etc.  
+   para: tener la información detallada de cada película   
+   
+   definición de terminado:  
+   traer en la 2da vista las imagenes de los personajes con sus datos y ordenarlos.
 
- 4. como:usuaria
-  quiero: poder actualizar y poder reiniciar mis filtros y ordenamientos
-  para: poder encontrar las animaciones más rápido
-
-  definición de terminado:
-  colocar un botón de refresh, lograr que refresque y pueda volver a iniciar la búsqueda, limpie las películas
-  mostradas y las regrese como al inicio.
-
- 5. como: usuaria
-  quiero: poder ver de cada animación como: descripción, fecha de lanzamiento, director, productor y personajes.
-  para: poder encontrar la información detallada de cada animación.
-
-  definición de terminado:
-  desarrollar el prototipo de la 2da vista, poder mostrar y ocultar la 2da vista, en la segunda vista poder traer 
-  DOM los detalles de la pelicula con su imagen 
-
-6. como: usuaria 
-  quiero: poder ver cada personaje de cada animación, saber cuantos y cuales son, y sus datos: nombre, edad, género, etc.
-  para: tener la información detallada de cada película
-  
-  definición de terminado:
-  traer en la 2da vista las imagenes de los personajes con sus datos y ordenarlos.
-
-7. como: usuaria 
-  quiero: poder ver las locaciones y vehículos, saber cuantos y cuales son, y sus datos.
-  para: tener la información detallada de cada locación y vehículo.
-  
-  definición de terminado:
-  traer en la 2da vista las imagenes de las locaciones y vehículos con sus datos y ordenarlos.
+7. como: usuaria  
+   quiero: poder ver las locaciones y vehículos, saber cuantos y cuales son, y sus datos.   
+   para: tener la información detallada de cada locación y vehículo.   
+   
+   definición de terminado:  
+   traer en la 2da vista las imagenes de las locaciones y vehículos con sus datos y ordenarlos.
   
 ## 3. Diseño de la Interfaz de Usuario
 
 #### Prototipo de baja fidelidad
 
-Aqui mostramos nuestros primeros sketchs en papel de nuestras vistas y como ordenar nuestra información
- <img>
+Aqui mostramos nuestros primeros sketchs en papel de nuestras vistas y como ordenar nuestra información  
+
+ <img src="https://github.com/claudiaricce/LIM016-data-lovers/blob/main/prototipo%20incial.jpeg?raw=true"/>
+ <img src="https://github.com/claudiaricce/LIM016-data-lovers/blob/main/ordenamiento.jpeg?raw=true"/>
 
 #### Prototipo de alta fidelidad
 
 Desarrollamos un prototipo de alta fidelidad en Figma de acuerdo a como queriamos representar 
 nuestra página con las animaciones y vistas.
+
 <img src="https://github.com/claudiaricce/LIM016-data-lovers/blob/main/prototipo.jpg?raw=true"/>
 
 #### Testeos de usabilidad
@@ -106,4 +109,5 @@ con 2 idiomas.
 
 Aqui la vista final de nuestro proyecto al 4to sprint(1mes)
 
-<img>
+<img src="https://github.com/claudiaricce/LIM016-data-lovers/blob/main/final%201.jpg?raw=true"/>
+<img src="https://github.com/claudiaricce/LIM016-data-lovers/blob/main/final%202.jpg?raw=true">
