@@ -33,6 +33,11 @@ describe('sortYear', () => {
    const result = sortYear(data, '2011');
     expect(result[0].release_date).toBe('2011');
   });
+
+  it('sorting from most recent should be `2013`', () => {
+    const result = orderYear(data, '2013');
+     expect(result[0].release_date).toBe('2013');
+   });
 });
 
 describe('orderYear', () => {

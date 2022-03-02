@@ -39,4 +39,3 @@ export const sortZa = () => {
     return (nombre.title< nombre1.title) ? 1:-1
   });
 };
-
