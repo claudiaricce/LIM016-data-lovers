@@ -12,7 +12,7 @@ function showCards(movies){
         //div dentro de cartas
         let filmCard= document.createElement("div"); 
         filmCard.id=film.id;
-        filmCard.addEventListener('click', (evento) =>{
+        filmCard.addEventListener('click', () =>{
             principal.classList.toggle('hide');
             cards.classList.toggle('hide');
             selectDirectors.classList.toggle('hide');
@@ -35,7 +35,7 @@ function showCards(movies){
         cards.appendChild(filmCard);
         filmCard.appendChild(parrafo);
         parrafo.appendChild(contenido);
-        home.addEventListener('click', (e)=> {
+        home.addEventListener('click', ()=> {
             principal.classList.remove('hide');
             cards.classList.remove('hide');
             selectDirectors.classList.remove('hide');
@@ -45,7 +45,7 @@ function showCards(movies){
             showDetails.innerHTML= "";
         });
     })
-    };
+    }
 showCards(films);
 
 let selectDirectors= document.getElementById('chooseDirector');
@@ -171,4 +171,4 @@ function showInfo(film){
             showDetails.appendChild(character);
             showDetails.appendChild(locations);
             showDetails.appendChild(vehicles);
-};
+}
